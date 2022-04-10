@@ -11,7 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeachHacks2022">
         <activity
-            android:name=".HangmanGame"
+            android:name=".InventoryScreen"
+            android:exported="false" />
+        <activity
+            android:name=".InsertBoxItems"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

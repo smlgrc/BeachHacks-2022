@@ -14,13 +14,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button playHangmanButton = findViewById(R.id.button_playHangman);
+        Button inventoryButton = findViewById(R.id.button_inventory);
 
         //new session button function
-        playHangmanButton.setOnClickListener(new View.OnClickListener() {
+        inventoryButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, HangmanGame.class);
+                Intent intent = new Intent(MainActivity.this, InventoryScreen.class);
                 startActivity(intent);
             }
         });

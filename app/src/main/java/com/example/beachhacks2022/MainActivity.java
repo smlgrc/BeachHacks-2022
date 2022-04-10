@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button inventoryButton = findViewById(R.id.button_inventory);
+        Button buttonItemPage = findViewById(R.id.buttonItemPage);
 
         //new session button function
         inventoryButton.setOnClickListener(new View.OnClickListener() {
@@ -24,5 +25,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        buttonItemPage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ItemListPage.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

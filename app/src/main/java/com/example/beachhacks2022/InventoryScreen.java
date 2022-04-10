@@ -48,9 +48,7 @@ public class InventoryScreen extends AppCompatActivity {
                         layoutList.removeView(boxView);
                     }
                 });
-
             }
         });
     }
-
 }

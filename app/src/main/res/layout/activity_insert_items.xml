@@ -14,16 +14,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
-        android:text="Inventory"
+        android:text="List of Items in Box"
         android:textAlignment="center"
         android:textSize="20dp" />
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="355dp">
+        android:layout_height="350dp">
 
         <LinearLayout
-            android:id="@+id/layout_list"
+            android:id="@+id/layout_list2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
@@ -32,26 +32,26 @@
     </ScrollView>
 
     <Button
-        android:id="@+id/button_add_box"
+        android:id="@+id/button_add_new_item"
         android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:text="+ Box"
+        android:text="+ Item"
         android:textAllCaps="false"
         android:textColor="@color/white"></Button>
 
     <Button
-        android:id="@+id/button_search_item"
+        android:id="@+id/button_go_back"
         android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
-        android:text="Search for Item"
+        android:text="Go back"
         android:textAllCaps="false"
         android:textColor="@color/white"></Button>
 

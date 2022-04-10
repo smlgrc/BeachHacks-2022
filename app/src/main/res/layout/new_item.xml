@@ -33,7 +33,7 @@ android:paddingBottom="10dp">
 
 
 <ImageView
-    android:id="@+id/row_remove"
+    android:id="@+id/row_remove2"
     android:layout_width="25dp"
     android:layout_height="25dp"
     android:layout_gravity="center_vertical"

@@ -5,5 +5,10 @@ import java.util.ArrayList;
 
 public class Box implements Serializable {
     private String boxName;
-    ArrayList<String> items;
+    ArrayList<String> listOfItems;
+
+    public void addItem(String item)
+    {
+        listOfItems.add(item);
+    }
 }

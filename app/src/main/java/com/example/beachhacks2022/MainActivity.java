@@ -16,12 +16,21 @@ public class MainActivity extends AppCompatActivity {
 
         Button inventoryButton = findViewById(R.id.button_inventory);
         Button buttonItemPage = findViewById(R.id.buttonItemPage);
+        Button cameraButton = findViewById(R.id.button_camera);
 
         //new session button function
         inventoryButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, InventoryScreen.class);
+                startActivity(intent);
+            }
+        });
+
+        cameraButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public  void onClick(View v){
+                Intent intent = new Intent(MainActivity.this,DetectorActivity.class);
                 startActivity(intent);
             }
         });
